@@ -1,0 +1,207 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    background-size: contain;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#mainview {
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+.centered {
+    text-align: center
+}
+
+#mpcanvas {
+    box-shadow: 0 1px 3px #FF5722;
+    -moz-box-shadow: 0 1px 3px #FF5722;
+    -webkit-box-shadow: 0 1px 3px #FF5722;
+    position: relative;
+    display: block;
+    height: auto;
+}
+
+.absolute-Center {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.GlassesL {
+    color: #2ECC71;
+    font-weight: bold;
+}
+
+.GlassesR {
+    color: #5DADE2;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.GlassesELR {
+    color: #E74C3C;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#mpglcanvas {
+    display: none;
+}
+
+.controlPanel {
+    padding: 5px;
+}
+
+#ListGlasses {
+    display: none;
+}
+
+#btnPreview {
+    display: none;
+}
+
+.loading {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    z-index: 1;
+}
+
+.content {
+    display: inline-flex;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
+#glasseslist {
+    padding: 0 0 0 10px;
+    overflow-y: auto;
+}
+#glasseslist > a {
+    padding: 5px;
+}
+#glasseslist > a > img{
+    width: 128px;
+    height: auto;
+    /*background: url(../images/bgpatern.png) repeat;*/
+}
+.dropshadowclass {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 5px 5px 0px #999;
+    -webkit-box-shadow: 5px 5px 0px #999;
+    box-shadow: 5px 5px 0px #999;
+}
+
+.imagedropshadow {
+    padding: 5px;
+    border: solid 1px #EFEFEF;
+}
+
+a:hover img.imagedropshadow {
+    border: solid 1px #5DADE2;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+.controlView{
+    width: 20%;
+    height: auto;
+}
+.glassesList{
+    width: 30%;
+    height: auto;
+}
+
+.g_image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h5 { 
+    position: absolute;
+    top: -12px;
+    left: 11px;
+    width: 100%;
+    text-align: left;
+    font-size: x-small;
+    color: gray;
+}
+h4 { 
+    position: absolute;
+    top: -15px;
+    left: 70px;
+    width: 100%;
+    text-align: left;
+    color: #03A9F4;
+    font-size: small;
+}
+#sliderPD{
+    margin: 40px 5px 40px 5px;
+}
+#sliderLen{
+    margin: 40px 5px 40px 5px;
+}
+
+.button {
+border-top: 1px solid #96d1f8;
+background: #65a9d7;
+background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+background: -o-linear-gradient(top, #3e779d, #65a9d7);
+padding: 8.5px 17px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+box-shadow: rgba(0,0,0,1) 0 1px 0;
+text-shadow: rgba(0,0,0,.4) 0 1px 0;
+color: white;
+font-size: 14px;
+font-family: Georgia, serif;
+text-decoration: none;
+vertical-align: middle;
+}
+.button:hover {
+border-top-color: #28597a;
+background: #28597a;
+color: #ccc;
+}
+.button:active {
+border-top-color: #1b435e;
+background: #1b435e;
+}
