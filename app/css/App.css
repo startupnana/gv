@@ -109,14 +109,17 @@ img {
     padding: 0 0 0 10px;
     overflow-y: auto;
 }
+
 #glasseslist > a {
     padding: 5px;
 }
-#glasseslist > a > img{
+
+#glasseslist > a > img {
     width: 128px;
     height: auto;
     /*background: url(../images/bgpatern.png) repeat;*/
 }
+
 .dropshadowclass {
     border: solid 1px #CCC;
     -moz-box-shadow: 5px 5px 0px #999;
@@ -135,21 +138,24 @@ a:hover img.imagedropshadow {
     -webkit-box-shadow: 1px 1px 5px #999;
     box-shadow: 1px 1px 5px #999;
 }
-.controlView{
+
+.controlView {
     width: 20%;
     height: auto;
 }
-.glassesList{
+
+.glassesList {
     width: 30%;
     height: auto;
 }
 
-.g_image { 
-   position: relative; 
-   width: 100%; /* for IE 6 */
+.g_image {
+    position: relative;
+    width: 100%;
+    /* for IE 6 */
 }
 
-h5 { 
+h5 {
     position: absolute;
     top: -12px;
     left: 11px;
@@ -158,7 +164,8 @@ h5 {
     font-size: x-small;
     color: gray;
 }
-h4 { 
+
+h4 {
     position: absolute;
     top: -15px;
     left: 70px;
@@ -167,41 +174,61 @@ h4 {
     color: #03A9F4;
     font-size: small;
 }
-#sliderPD{
+
+#sliderPD {
     margin: 40px 5px 40px 5px;
 }
-#sliderLen{
+
+#sliderLen {
     margin: 40px 5px 40px 5px;
 }
 
 .button {
-border-top: 1px solid #96d1f8;
-background: #65a9d7;
-background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
-background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
-background: -moz-linear-gradient(top, #3e779d, #65a9d7);
-background: -ms-linear-gradient(top, #3e779d, #65a9d7);
-background: -o-linear-gradient(top, #3e779d, #65a9d7);
-padding: 8.5px 17px;
--webkit-border-radius: 8px;
--moz-border-radius: 8px;
-border-radius: 8px;
--webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
--moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-box-shadow: rgba(0,0,0,1) 0 1px 0;
-text-shadow: rgba(0,0,0,.4) 0 1px 0;
-color: white;
-font-size: 14px;
-font-family: Georgia, serif;
-text-decoration: none;
-vertical-align: middle;
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 8.5px 17px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: white;
+    font-size: 14px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
 }
+
 .button:hover {
-border-top-color: #28597a;
-background: #28597a;
-color: #ccc;
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
 }
+
 .button:active {
-border-top-color: #1b435e;
-background: #1b435e;
+    border-top-color: #1b435e;
+    background: #1b435e;
+}
+
+.contactus{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+.contactus > .title{
+    color: #009688;
+    font-weight: bold;
+    font-size: 18px;
+}
+.contactus > .email{
+    color: #009688;
+    font-weight: bold;
+    font-size: 26px;
 }
