@@ -31,7 +31,8 @@ img {
 }
 
 .centered {
-    text-align: center
+    text-align: center;
+    text-align: -webkit-center
 }
 
 #mpcanvas {
@@ -176,7 +177,8 @@ h4 {
 }
 
 #sliderPD {
-    margin: 40px 5px 40px 5px;
+    width: 40%;
+    margin: 50px 0 0px 0;
 }
 
 #sliderLen {
@@ -221,6 +223,7 @@ h4 {
     position: fixed;
     top: 10px;
     right: 10px;
+    display: none;
 }
 .contactus > .title{
     color: #009688;
