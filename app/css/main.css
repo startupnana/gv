@@ -14,7 +14,7 @@ body {
 }
 
 .rightColumn {
-    border: 1px solid #ccc;
+    
 }
 
 footer {
@@ -25,6 +25,7 @@ footer {
 .leftColumn {
     margin-bottom: .5em;
     text-align: center;
+    position: relative;
 }
 
 .rightColumn {
@@ -71,7 +72,7 @@ footer {
 
 #mpcanvas {
     width: 100%;
-    max-width: 500px;
+    max-width: 90%;
     box-shadow: 0 1px 3px #FF5722;
     -moz-box-shadow: 0 1px 3px #FF5722;
     -webkit-box-shadow: 0 1px 3px #FF5722;
@@ -81,6 +82,7 @@ footer {
     overflow-x: auto;
     overflow-y: hidden;
     padding: 0px !important;
+    text-align: left !important;
 }
 
 .frame ul {
@@ -180,6 +182,9 @@ footer {
 .subtext{
     color: #5DADE2;
     font-weight: bold;
+    position: absolute;
+    bottom: 7%;
+    left: 8%;
 }
 .rightColumn > div{
     padding-bottom: 35px;
@@ -217,7 +222,7 @@ footer {
     width: 1800px;
 }
 .frame > ul > li {
-   
+    position: relative;
 }
 .frame > ul > li:hover {
     background: #8bc34a;
@@ -228,11 +233,14 @@ footer {
 }
 .changelen{
     position: absolute;
-    right: 0px;
-    top: 10px;
+    bottom: 2%;
+    right: 7%;
 }
 #sliderPD{
-    width: 60%;
+    width: 56%;
+    position: absolute;
+    bottom: 3%;
+    left: 8%;
 }
 .loading {
     width: 50px;
@@ -254,6 +262,7 @@ footer {
     text-transform: uppercase;
     background: #2196F3;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 a {
@@ -362,7 +371,7 @@ nav ul li li {
 nav ul li a {
 	display: block;
 	float: left;
-	padding: 10px 10px;
+	padding: 5px 10px;
     color: #eee;
     font-size: 0.75em;
 	margin: 0 10px;
@@ -373,7 +382,7 @@ nav ul li a {
     border-radius: 5px;
 }
 
-nav ul li a i { padding-right: 5px; }
+nav ul li a i { }
 
 nav ul li li a {
 	float: none;
@@ -556,4 +565,97 @@ div.social-icons a {
 }
 #fileupload{
     display: none;
+}
+
+.email{
+    position: relative;
+    top: -8px;
+    display: none;
+    padding-left: 10px;
+}
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  #mpcanvas {
+        width: 100%;
+        max-width: 85%;
+        box-shadow: 0 1px 3px #FF5722;
+        -moz-box-shadow: 0 1px 3px #FF5722;
+        -webkit-box-shadow: 0 1px 3px #FF5722;
+    }
+    .changelen{
+        position: absolute;
+        bottom: 2%;
+        right: 8%;
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    #mpcanvas {
+        width: 100%;
+        max-width: 85%;
+        box-shadow: 0 1px 3px #FF5722;
+        -moz-box-shadow: 0 1px 3px #FF5722;
+        -webkit-box-shadow: 0 1px 3px #FF5722;
+    }
+    .changelen{
+        position: absolute;
+        bottom: 2%;
+        right: 8%;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #mpcanvas {
+        width: 100%;
+        max-width: 100%;
+        box-shadow: 0 1px 3px #FF5722;
+        -moz-box-shadow: 0 1px 3px #FF5722;
+        -webkit-box-shadow: 0 1px 3px #FF5722;
+    }
+    .changelen{
+        position: absolute;
+        bottom: 2%;
+        right: 2%;
+    }
+    #sliderPD{
+        width: 56%;
+        position: absolute;
+        bottom: 3%;
+        left: 2%;
+    }
+    .subtext{
+        color: #5DADE2;
+        font-weight: bold;
+        position: absolute;
+        bottom: 9%;
+        left: 2%;
+    }
+}
+ .glassesList{
+    color: #5DADE2;
+    font-weight: bold;  
+    padding-left: 10px;
+}
+.glassMS{
+    color: #9E9E9E;
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+    font-size: 16px;
 }
